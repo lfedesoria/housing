@@ -6,33 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Housing</title>
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <style>
+         #picker {
+         background: #fff  ;
+         cursor: pointer;
+         padding: 5px 10px ;
+         border: 1px solid #ccc ;
+         width: 100%;
+        }
+    </style>
 </head>
 <body>
-
     <!-- Buscador hecho por joaquin -->
-    <div class="container">
+    <div class="container mt-5 mb-5">
         <div class="row">
-                <div class="col-4 input-group mb-3 ">
+                <div class="col-4 input-group mt-2 mb-2 ">
                         <div class="input-group-prepend">
                           <span class="input-group-text" id="inputGroup-sizing-default">A donde desea ir</span>
                         </div>
                         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                 </div>
-                <div class="col-4 input-group mb-3">
-                        <div class="input-group-prepend">
-                          <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
-                          <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            <div role="separator" class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Separated link</a>
-                          </div>
+                <div class="col-4 container mt-2 mb-2">
+                        <div id="picker">
+                            <i class="fa fa-calendar"></i> &nbsp;
+                            <span id="date"></span>
+                            &nbsp; <i class="fa fa-caret-down"></i>
                         </div>
-                        <input type="text" class="form-control" aria-label="Text input with dropdown button">
                     </div>
-                    <div class="col-4 input-group">
+                    <div class="col-4 input-group mt-2 mb-2">
                         <input type="text" class="form-control" aria-label="Text input with dropdown button">
                         <div class="input-group-append">
                           <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
@@ -51,7 +54,26 @@
      </div>
 
    <!-- Buscador hecho por joaquin -->
-
     <script type="text/javascript" src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/ar.js"></script>
+    <script>
+        $("#picker").daterangepicker({
+            startdate:[moment().subtract(29, "days")],
+            enddate:moment(),
+            range: {
+                'today': [moment(), moment()],
+                'yesterday': [moment().subtract(1, "days"), moment().subtract(1,"days")],
+                'last 7 days': [moment().subtract(6, "days"), moment()],
+                'last 30 days': [moment().subtract(29, "days"), moment()],
+                'this month': [moment().startOf("month"),moment().endOf("month")],
+                'last month': [moment().subtract(1, "month").startOf("month"), moment().subtract(1, "month").endOf("month")]
+            }
+        },function(start, end){
+            $("#date").html(start.format('MMM DD, YY')+ ' - ' + end.format('MMM DD, YY ')) 
+        });
+
+        $("#date").html(moment().subtract(29, "days").format('MMM DD, YY')+ ' - ' + moment().format('MMM DD, YY ')) 
+    </script>
 </body>
 </html>
