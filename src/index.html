@@ -19,23 +19,45 @@
     </style>
 </head>
 <body>
-    <!-- Buscador hecho por joaquin -->
-    <div class="container">
+    
+   <header><!-- gio -->
+        
+        <section> <!-- Topside header -->
+
+        </section>
+
+        <nav>
+
+        </nav>
+    </header><!-- fin gio -->
+
+    <!-- -------------------------------------- -->
+    <main>
+    <!---------------------------------------------------------------------------
+        - Aqui dejo seccionada las tareas para que haya mas orden.
+        - Cada uno agregue su tarea dentro del tag section que le corresponda. 
+        - En caso de que falte agregar un tag section con el nombre de cada tarea-
+            comentando al lado el numero y nombre de la tarea.
+    ------------------------------------------------------------------------------->
+    
+        <section><!-- Tarea 3 - Buscador  -->
+                <!-- Buscador hecho por joaquin -->
+    <div class="container mt-5 mb-5">
         <div class="row">
-                <div class="col-4 input-group mt-5 mb-5 ">
+                <div class="col-4 input-group mt-1 mb-1 ">
                         <div class="input-group-prepend">
                           <span class="input-group-text" id="inputGroup-sizing-default">A donde desea ir</span>
                         </div>
                         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                 </div>
-                <div class="col-4 container mt-5 mb-5">
+                <div class="col-4 container mt-1 mb-1">
                         <div id="picker">
                             <i class="fa fa-calendar"></i> &nbsp;
                             <span id="date"></span>
                             &nbsp; <i class="fa fa-caret-down"></i>
                         </div>
                     </div>
-                    <div class="col-4 input-group mt-5 mb-5">
+                    <div class="col-4 input-group mt-1 mb-1">
                         <input type="text" class="form-control" aria-label="Text input with dropdown button">
                         <div class="input-group-append">
                           <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
@@ -47,34 +69,44 @@
                             <a class="dropdown-item" href="#">Separated link</a>
                           </div>
                         </div>
-                      </div>
+                        <div class="col-4 input-group mt-1 mb-1" >
+                            <button type="button" class="btn btn-outline-primary">Primary</button>
+                        </div>
+                </div>
         </div>
         
-        
+
      </div>
 
    <!-- Buscador hecho por joaquin -->
-    <script type="text/javascript" src="./js/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script>
-        $("#picker").daterangepicker({
-            startdate:[moment().subtract(29, "days")],
-            enddate:moment(),
-            range: {
-                'today': [moment(), moment()],
-                'yesterday': [moment().subtract(1, "days"), moment().subtract(1,"days")],
-                'last 7 days': [moment().subtract(6, "days"), moment()],
-                'last 30 days': [moment().subtract(29, "days"), moment()],
-                'this month': [moment().startof("month"),moment().endof("month")],
-                'last month': [moment().subtract(1, "month").startof("month"), moment().subtract(1, "month").endof("month")]
-            }
-        },function(start, end){
-            $("#date").html(start.format('MMM DD, YY')+ ' - ' + end.format('MMM DD, YY ')) 
-        });
+        </section><!-- fin buscador -->
+    
+    <!-- --------------------- -->
 
-        $("#date").html(moment().subtract(29, "days").format('MMM DD, YY')+ ' - ' + moment().format('MMM DD, YY ')) 
-    </script>
+        <section><!-- Tarea 4 - Publicidad destacada  -->
+
+        </section><!-- Fin publicidad destacada -->
+
+    <!-- --------------------- -->   
+
+        <section> <!-- Destinos -->
+
+        </section> <!-- Fin Destinos -->
+    
+    <!-- --------------------- -->
+
+
+    </main><!-- fin contenedor principal -->
+    <!-- --------------------------- -->
+
+    
+    <footer><!-- Footer -->
+
+    </footer><!-- fin Footer -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    
 </body>
 </html>
