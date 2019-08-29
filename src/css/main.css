@@ -1,3 +1,24 @@
 .subcription {
     background: blue;
 }
+
+.image-result {
+    max-width: 100%;
+    height: 500px;
+}
+
+.main-background {
+    background: url(https://www.visittheusa.mx/sites/default/files/styles/hero_m_1300x700/public/images/hero_media_image/2016-11/Hero_San%20Diego%20Skyline_John%20Bahu.jpg?itok=nz1729r_);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.result-p {
+    color: white; 
+}
+
+.map-img {
+    max-width: 100%;
+    height: auto;
+}
+
