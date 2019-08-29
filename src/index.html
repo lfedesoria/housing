@@ -36,33 +36,33 @@
     <!-- Buscador hecho por joaquin -->
     <div class="container mt-5 mb-5">
         <div class="row">
-                <div class="col-4 input-group  ">
+                <div class="col-sm-4  mt-4 mt-sm-0 input-group  ">
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="inputGroup-sizing-default">A donde desea ir</span>
                         </div>
                         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                     </div>
-                    <div class="col-4 container ">
+                    <div class="col-sm-4 mt-4 mt-sm-0 container ">
                         <div id="picker">
                             <i class="fa fa-calendar"></i> &nbsp;
                             <span id="date"></span>
                             &nbsp; <i class="fa fa-caret-down"></i>
                         </div>
                     </div>
-                    <div class="col-4 input-group ">
+                    <div class="col-sm-3 mt-4 mt-sm-0 input-group ">
                         <input type="number" class="form-control" aria-label="Text input with dropdown button">
                         <div class="input-group-append">
-                            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
-                            <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            <div role="separator" class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Separated link</a>
+                            <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                                <option selected>Seleccione...</option>
+                                <option value="1">Habitacion</option>
+                                <option value="2">Adultos</option>
+                                <option value="3">Niños</option>
+                              </select>
+
                             </div>
                         </div>
-                        <div class="col-4 input-group " >
-                            <button type="button" class="btn btn-outline-primary">Buscar</button>
+                        <div class="col-sm-1 mt-4 mt-sm-0 input-group " >
+                            <button type="button" class="btn btn-outline-primary btn-block">Buscar</button>
                         </div>
                 </div>
         </div>
