@@ -1,3 +1,21 @@
 .subcription {
     background: blue;
+.title {
+    font-size: 2.25rem;
+}
+
+.price {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 6px;
+    background:#ffff52;
+
+}
+
+.card-without-border {
+    border: 0!important;
+    border-radius:0;
 }
