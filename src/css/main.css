@@ -1,5 +1,7 @@
 .subcription {
     background: blue;
+}
+
 .title {
     font-size: 2.25rem;
 }
@@ -19,3 +21,7 @@
     border: 0!important;
     border-radius:0;
 }
+
+.icon-alert {
+    font-size: 150px;
+} 
