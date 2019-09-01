@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Housing</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
 </head>
 <body>
-    <header><!-- gio -->
-        
+
+    
+   <header>
+  
         <section> <!-- Topside header -->
 
         </section>
@@ -17,7 +21,7 @@
         <nav>
 
         </nav>
-    </header><!-- fin gio -->
+    </header>
 
     <!-- -------------------------------------- -->
     <main> 
@@ -28,10 +32,44 @@
             comentando al lado el numero y nombre de la tarea.
     ------------------------------------------------------------------------------->
     
-        <section><!-- Tarea 3 - Buscador - Joaquin  -->
 
-        </section><!-- fin buscador -->
-    
+        <section><!-- Tarea 3 - Buscador  -->
+                <!-- Buscador hecho por joaquin -->
+      <!-- Buscador hecho por joaquin -->
+      <div class="container background-color mt-5 mb-5">
+          <div class="row">
+                  <div class="col-sm-4  mt-4 mt-sm-0 input-group  ">
+                          <div class="input-group-prepend">
+                              <span class="input-group-text" id="inputGroup-sizing-default">A donde desea ir</span>
+                          </div>
+                          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                      </div>
+                      <div class="col-sm-4 mt-4 mt-sm-0 container ">
+                          <div id="picker">
+                              <i class="fa fa-calendar"></i> &nbsp;
+                              <span id="date"></span>
+                              &nbsp; <i class="fa fa-caret-down"></i>
+                          </div>
+                      </div>
+                      <div class="col-sm-3 mt-4 mt-sm-0 input-group ">
+                          <input type="number" class="form-control" aria-label="Text input with dropdown button">
+                          <div class="input-group-append">
+                              <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                                  <option selected>Seleccione...</option>
+                                  <option value="1">Habitacion</option>
+                                  <option value="2">Adultos</option>
+                                  <option value="3">Niños</option>
+                                </select>
+
+                              </div>
+                          </div>
+                          <div class="col-sm-1 mt-4 mt-sm-0 input-group " >
+                              <button type="button" class="btn btn-outline-primary btn-block">Buscar</button>
+                          </div>
+                  </div>
+          </div>
+        <section><!-- Tarea 3 - Buscador - Joaquin  -->
+          
     <!-- --------------------- -->
 
         <section><!-- Tarea 4 - Publicidad destacada - Cecilia  -->
@@ -170,6 +208,8 @@
 
     </footer><!-- fin Footer -->
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>
 </body>
 </html>

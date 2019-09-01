@@ -1,3 +1,14 @@
+.background-color {
+    
+    background-color: #ffff52; 
+}
+ #picker {
+     background: #fff  ;
+     cursor: pointer;
+     padding: 5px 10px ;
+     border: 1px solid #ccc ;
+     width: 100%;
+ }
 .title {
     font-size: 2.25rem;
 }
