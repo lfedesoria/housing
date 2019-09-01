@@ -6,8 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Housing</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
 </head>
 <body>
+
+  
     <header><!-- gio -->
         
         <section> <!-- Topside header -->
@@ -17,10 +21,10 @@
         <nav>
 
         </nav>
-    </header><!-- fin gio -->
+    </header>
 
     <!-- -------------------------------------- -->
-    <main>
+    <main> 
     <!---------------------------------------------------------------------------
         - Aqui dejo seccionada las tareas para que haya mas orden.
         - Cada uno agregue su tarea dentro del tag section que le corresponda. 
@@ -28,23 +32,172 @@
             comentando al lado el numero y nombre de la tarea.
     ------------------------------------------------------------------------------->
     
-        <section><!-- Tarea 3 - Buscador  -->
 
-        </section><!-- fin buscador -->
-    
+        <section><!-- Tarea 3 - Buscador  -->
+                <!-- Buscador hecho por joaquin -->
+      <!-- Buscador hecho por joaquin -->
+      <div class="container background-color mt-5 mb-5">
+          <div class="row">
+                  <div class="col-sm-4  mt-4 mt-sm-0 input-group  ">
+                          <div class="input-group-prepend">
+                              <span class="input-group-text" id="inputGroup-sizing-default">A donde desea ir</span>
+                          </div>
+                          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                      </div>
+                      <div class="col-sm-4 mt-4 mt-sm-0 container ">
+                          <div id="picker">
+                              <i class="fa fa-calendar"></i> &nbsp;
+                              <span id="date"></span>
+                              &nbsp; <i class="fa fa-caret-down"></i>
+                          </div>
+                      </div>
+                      <div class="col-sm-3 mt-4 mt-sm-0 input-group ">
+                          <input type="number" class="form-control" aria-label="Text input with dropdown button">
+                          <div class="input-group-append">
+                              <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                                  <option selected>Seleccione...</option>
+                                  <option value="1">Habitacion</option>
+                                  <option value="2">Adultos</option>
+                                  <option value="3">Niños</option>
+                                </select>
+
+                              </div>
+                          </div>
+                          <div class="col-sm-1 mt-4 mt-sm-0 input-group " >
+                              <button type="button" class="btn btn-outline-primary btn-block">Buscar</button>
+                          </div>
+                  </div>
+          </div>
+        <section><!-- Tarea 3 - Buscador - Joaquin  -->
+          
     <!-- --------------------- -->
 
-        <section><!-- Tarea 4 - Publicidad destacada  -->
+        <section><!-- Tarea 4 - Publicidad destacada - Cecilia  -->
 
         </section><!-- Fin publicidad destacada -->
 
     <!-- --------------------- -->   
 
-        <section> <!-- Destinos -->
+        <section> <!-- Tarea 5 - Destinos - Joaquin -->
 
         </section> <!-- Fin Destinos -->
+
+        <!------------------------------>
+        <section> <!--Tarea 6 - Alojamientos - Fiorella-->
+            <div class="container">
+                <h1>No solo hoteles... También casas de todos los tamaños</h1>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                                  <div class="row">
+                                  <div class="col">
+                                    <div class="card bg-dark text-black card-without-border">
+                                        <img src="./img/apartamento.jpg" class="card-img" alt="...">
+                                        <div class="card-img-overlay">
+                                            <h5 class="card-title title">Apartamentos</h5>
+                                            <p class="card-text price">Desde $1590</p>
+                                            <p class="card-text">Last updated 3 mins ago</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="card bg-dark text-black card-without-border">
+                                        <img src="./img/resort.jpg" class="card-img" alt="...">
+                                        <div class="card-img-overlay">
+                                            <h5 class="card-title title">Resort</h5>
+                                            <p class="card-text price">Desde $3600.</p>
+                                            <p class="card-text">Last updated 3 mins ago</p>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col">
+                                    <div class="card bg-dark text-black card-without-border">
+                                        <img src="./img/villas.jpg" class="card-img" alt="...">
+                                        <div class="card-img-overlay">
+                                            <h5 class="card-title title">Villas</h5>
+                                            <p class="card-text price">Desde $2350</p>
+                                            <p class="card-text">Last updated 3 mins ago</p>
+                                        </div>
+                                    </div>
+                                    </div>
+        
+                              </div>
+                            
+                          </div>
+                          <div class="carousel-item">
+                           <div class="row">
+                                <div class="col">
+                                  <div class="card bg-dark text-black card-without-border">
+                                      <img src="./img/chalets.jpg" class="card-img" alt="...">
+                                      <div class="card-img-overlay">
+                                          <h5 class="card-title title">Chalets de montañas</h5>
+                                          <p class="card-text price">Desde $3300</p>
+                                          <p class="card-text">Last updated 3 mins ago</p>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="col">
+                                  <div class="card bg-dark text-black card-without-border">
+                                      <img src="./img/casadecampo.jpg" class="card-img" alt="...">
+                                      <div class="card-img-overlay">
+                                          <h5 class="card-title title">Casas de campo</h5>
+                                          <p class="card-text price">Desde $2000</p>
+                                          <p class="card-text">Last updated 3 mins ago</p>
+                                      </div>
+                                  </div>
+                                  </div>
+                                  <div class="col">
+                                  <div class="card bg-dark text-black card-without-border">
+                                      <img src="./img/hostel.jpg" class="card-img" alt="...">
+                                      <div class="card-img-overlay">
+                                          <h5 class="card-title title">Hostales</h5>
+                                          <p class="card-text price">Desde $970</p>
+                                          <p class="card-text">Last updated 3 mins ago</p>
+                                      </div>
+                                  </div>
+                                  </div>
+        
+                            </div>
+                        </div>  
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+        </div>
+
+        </section>
     
-    <!-- --------------------- -->
+
+    <section> <!-- Tarea 8 - Suscripcion - Cecilia-->
+
+    </section>
+
+    <!---------------->
+
+    <section> <!--Tarea 9 - Destinos- Cecilia-->
+
+    </section>
+
+    <!----------------------->
+    
+    <section> <!-- Tarea 10 - Suscripcion - Cecilia-->
+
+    </section>
+
+    <!--------------------->
+
+    <section> <!--Tarea 11 - Footer - Joaquin-->
+
+    </section>
+
+    <!---------------------------->
 
         <section> <!--TAREA 10: Segundo subscribirse (va justo antes del footer) -->
             <div class="bg-danger text-white">
@@ -93,7 +246,8 @@
 
     </footer><!-- fin Footer -->
     
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>
 </body>
 </html>
