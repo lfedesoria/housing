@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 .subcription {
     background: blue;
 }
-
-=======
-
 .background-color {
      background-color: #ffff52; 
 }
@@ -15,7 +11,6 @@
      border: 1px solid #ccc ;
      width: 100%;
  }
->>>>>>> 40d0df274548f6cdb446c3219e7e8a382638d037
 .title {
     font-size: 2.25rem;
 }
@@ -31,19 +26,10 @@
 .card-without-border {
     border: 0!important;
     border-radius:0;
-<<<<<<< HEAD
 }
-
 .icon-alert {
     font-size: 150px;
 } 
-=======
-
-}
-
-.subcription {
-    background: blue;
-}
 
 .image-result {
     max-width: 100%;
@@ -80,4 +66,4 @@
         background-size: 100% auto;
         background-repeat: no-repeat;
     }
->>>>>>> 40d0df274548f6cdb446c3219e7e8a382638d037
+}
