@@ -55,6 +55,9 @@
 .b-no-active{
     border-bottom: 1px solid lightgrey;
 }
+.no-border{
+    border: 0 solid #ccc !important;
+}
 
 @media (max-width: 576px) {
     .main-background {
