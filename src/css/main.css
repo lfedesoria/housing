@@ -58,7 +58,9 @@
 .no-border{
     border: 0 solid #ccc !important;
 }
+.facebook-btn{  background-color:#3C589C; }
 
+.google-btn{ background-color: #DF4B3B; }
 @media (max-width: 576px) {
     .main-background {
         background: none;

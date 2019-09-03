@@ -6,6 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <title>Housing</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -52,7 +55,7 @@
                     </li>
                     <li>
                         <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">
-                            Ingresar
+                            Acceder
                         </button>
                     </li>
 
@@ -321,6 +324,43 @@
 
     </footer><!-- fin Footer -->
 
+
+
+
+
+    <!-- Modal de Inicio de sesion y creacion de cuenta / Tarea 2 - Header -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button> -->
+                </div>
+                <div class="modal-body">
+                    <div class="g-signin2 m-1" data-onsuccess="onSignIn" data-theme="dark"></div>
+                    <div class="fb-login-button m-1" data-width="" data-size="large" data-button-type="continue_with"
+                        data-auto-logout-link="false" data-use-continue-as="false"></div>
+                    <div class="social-login">
+                        <button class="btn facebook-btn social-btn" type="button"><span><i
+                                    class="fab fa-facebook-f"></i> Sign in with Facebook</span> </button>
+                        <button class="btn google-btn social-btn" type="button"><span><i
+                                    class="fab fa-google-plus-g"></i> Sign in with Google+</span> </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div><!-- Fin Modal de Inicio de sesion y creacion de cuenta / Tarea 2 - Header -->
+
+
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v4.0&appId=320022538024934"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>
