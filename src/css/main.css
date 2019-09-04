@@ -43,3 +43,116 @@
     background-image: url(../img/flags/japan.png);
     background-size: cover;
  }
+#picker {
+    background: #fff  ;
+    cursor: pointer;
+    padding: 5px 10px ;
+    border: 1px solid #ccc ;
+    width: 100%;
+}
+.subcription {
+    background: blue;
+}
+.background-color {
+     background-color: #ffff52; 
+}
+.title {
+    font-size: 2.25rem;
+}
+.price {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 6px;
+    background:#ffff52;
+}
+.card-without-border {
+    border: 0!important;
+    border-radius:0;
+}
+.icon-alert {
+    font-size: 150px;
+} 
+.image-result {
+    max-width: 100%;
+    height: 500px;
+}
+.main-background {
+    background: url(https://www.visittheusa.mx/sites/default/files/styles/hero_m_1300x700/public/images/hero_media_image/2016-11/Hero_San%20Diego%20Skyline_John%20Bahu.jpg?itok=nz1729r_);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.result-p {
+    color: white; 
+}
+.map-img {
+    max-width: 100%;
+    height: auto;
+}
+.map-backgrond {
+    background: black;
+}
+.b-active{
+    border-bottom: 5px solid #fcce00;
+}
+.b-no-active{
+    border-bottom: 1px solid lightgrey;
+}
+.no-border{
+    border: 0 solid #ccc !important;
+}
+.facebook-btn{  
+    background:#3C589C !important; 
+}
+.google-btn{ 
+    background: #DF4B3B!important;
+}
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+.mt-50{
+    margin-top: 2%;
+}
+
+@media (max-width: 576px) {
+    .main-background {
+        background: none;
+    }
+    .main-background-responsive {
+        background: url(https://www.visittheusa.mx/sites/default/files/styles/hero_m_1300x700/public/images/hero_media_image/2016-11/Hero_San%20Diego%20Skyline_John%20Bahu.jpg?itok=nz1729r_);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 768px) {
+    
+}
+
+.botondisponibilidad {
+    margin-left: 390px;
+}
+
+.botoncolor  {
+    background-color: #ffff52 !important;
+}
