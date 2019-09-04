@@ -58,6 +58,34 @@
 .no-border{
     border: 0 solid #ccc !important;
 }
+.facebook-btn{  
+    background:#3C589C !important; 
+}
+.google-btn{ 
+    background: #DF4B3B!important;
+}
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
 
 .perfil-img-size {
     width: 50px;
@@ -75,4 +103,12 @@
         background-size: 100% auto;
         background-repeat: no-repeat;
     }
+}
+
+.botondisponibilidad {
+    margin-left: 390px;
+}
+
+.botoncolor  {
+    background-color: #ffff52 !important;
 }
