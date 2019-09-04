@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script src="https://kit.fontawesome.com/23e52ac974.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,32 +12,78 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
 </head>
 
-<body>
+<body class="bg-light">
 
 
-    <header>
-        <!-- gio -->
+    <header class="container">
+        <!-- Tarea 2 - Header - Gio -->
+        <section class="row">
+            <div class="col-lg-8">
+                <a href="index.html">
+                    <img src="./img/H2.svg" width="150" alt="Housing">
+                </a>
+                <a class="navbar-brand align-self-center text-dark" href="#">Easy - Jumbo</a>
+            </div>
+            <div class="float-right btn-group">
+                <ul class="nav nav-tabs no-border mt-2">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Argentina</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item disabled" href="#">Elija su pais</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Brasil</a>
+                            <a class="dropdown-item" href="#">Uganda</a>
+                            <a class="dropdown-item" href="#">Wakanda</a>
+                            <a class="dropdown-item" href="#">La concha de la lora</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">AR$</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item disabled" href="#">Elija su moneda</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">$ USD</a>
+                            <a class="dropdown-item" href="#">€ EUR</a>
+                            <a class="dropdown-item" href="#">£ GBP</a>
+                            <a class="dropdown-item" href="#">R$ BRL</a>
+                        </div>
+                    </li>
+                    <li>
+                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">
+                            Ingresar
+                        </button>
+                    </li>
 
-        <section>
-            <!-- Topside header -->
-
+            </div>
         </section>
+        <section class="row justify-content-lg-center">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link mx-2 b-active active" href="#">Alojamientos</a>
+                        <a class="nav-item nav-link mx-2 b-no-active" href="#">Vuelos</a>
+                        <a class="nav-item nav-link mx-2 b-no-active" href="#">Alquiler de Coches</a>
+                        <a class="nav-item nav-link mx-2 b-no-active" href="#">Tours y Actividades</a>
+                        <a class="nav-item nav-link mx-2 b-no-active" href="#">Puto el que lee</a>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header><!-- Fin Tarea 2 - Header - Gio -->
 
-        <nav>
-
-        </nav>
-    </header>
-
-    <!-- -------------------------------------- -->
-    <main>
+    <main class="container">
         <!---------------------------------------------------------------------------
         - Aqui dejo seccionada las tareas para que haya mas orden.
         - Cada uno agregue su tarea dentro del tag section que le corresponda. 
         - En caso de que falte agregar un tag section con el nombre de cada tarea-
             comentando al lado el numero y nombre de la tarea.
     ------------------------------------------------------------------------------->
-
-
         <section>
             <!-- Tarea 3 - Buscador - Joaquin -->
             <div class="container background-color mt-5 mb-5">
@@ -214,8 +261,9 @@
 
                 <!---------------------------->
 
+
+                <!--TAREA 10: Segundo subscribirse (va justo antes del footer) -->
                 <section>
-                    <!--TAREA 10: Segundo subscribirse (va justo antes del footer) -->
                     <div class="bg-danger text-white">
                         <div class="container p-3">
                             <h4>Recuerda registrarte para obtener descuentos y promociones exclusivas</h4>
@@ -223,37 +271,45 @@
 
                         <div class="container">
                             <form class="row">
-                                <div class="col-12">
-                                    <label class="sr-only" for="inlineFormInputName2">Nombre</label>
-                                    <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2"
-                                        placeholder="Nombre">
-                                </div>
-
-                                <div class="col-12">
-                                    <label class="sr-only" for="inlineFormInputGroupUsername2">Usuaio</label>
-                                    <div class="input-group mb-2 mr-sm-2">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">@</div>
+                                <div class="col-sm-9">
+                                    <div>
+                                        <label class="sr-only" for="inlineFormInputName2">Nombre</label>
+                                        <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2"
+                                            placeholder="Nombre">
+                                    </div>
+                                    <div>
+                                        <label class="sr-only" for="inlineFormInputGroupUsername2">Usuaio</label>
+                                        <div class="input-group mb-2 mr-sm-2">
+                                            <div class="input-group-prepend">
+                                                <div class="input-group-text">@</div>
+                                            </div>
+                                            <input type="text" class="form-control" id="inlineFormInputGroupUsername2"
+                                                placeholder="Nombre de usuario">
                                         </div>
-                                        <input type="text" class="form-control" id="inlineFormInputGroupUsername2"
-                                            placeholder="Nombre de usuario">
+                                    </div>
+                                    <div class="px-3 py-1">
+                                        <div class="form-group form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
                                     </div>
                                 </div>
 
-                                <div class="px-3 py-1">
-                                    <div class="form-group form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                <div class="col-sm-3">
+                                    <div class="text-center">
+                                        <i class="fas fa-exclamation-triangle icon-alert"></i>
                                     </div>
                                 </div>
 
-                                <div class="col-12">
-                                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
-                                </div>
                             </form>
+
                         </div>
                     </div>
                 </section> <!-- FIN TAREA 10-->
+
 
 
     </main><!-- fin contenedor principal -->
