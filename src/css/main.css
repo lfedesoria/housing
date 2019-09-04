@@ -71,3 +71,11 @@
         background-repeat: no-repeat;
     }
 }
+
+.botondisponibilidad {
+    margin-left: 390px;
+}
+
+.botoncolor  {
+    background-color: #ffff52 !important;
+}
