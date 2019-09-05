@@ -14,13 +14,53 @@
     <header class="container">
         <!-- Tarea 2 - Header - Gio -->
         <section class="row">
-            <a href="index.html">
-                <img src="./img/H2.svg" width="150" alt="Housing">
-            </a>
-            <a class="navbar-brand align-self-center text-dark" href="#">Easy-Home</a>
+            <div class="col-lg-8 col-md-6 col-4">
+                <a href="index.html">
+                    <img src="./img/H2.svg" width="150" alt="Housing">
+                </a>
+                <a class="navbar-brand align-self-center text-dark d-none d-md-inline" href="#">Housing</a>
+            </div>
+            <div class="float-right btn-group">
+                <ul class="nav nav-tabs no-border mt-2">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false"><img src="./img/ar.png" alt=""></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item disabled" href="#">Elija su pais</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"><img src="./img/esp.png" alt=""></a>
+                            <a class="dropdown-item" href="#"><img src="./img/br.png" alt=""></a>
+                            <a class="dropdown-item" href="#"><img src="./img/us.png" alt=""></a>
+                            <a class="dropdown-item" href="#"><img src="./img/uk.png" alt=""></a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown mx-1">
+                        <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">$ ARS</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item disabled" href="#">Elija su moneda</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">$ USD</a>
+                            <a class="dropdown-item" href="#">€ EUR</a>
+                            <a class="dropdown-item" href="#">£ GBP</a>
+                            <a class="dropdown-item" href="#">R$ BRL</a>
+                        </div>
+                    </li>
+                    <li>
+                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#signinModal">
+                            SignIn
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#loginModal">
+                            LogIn
+                        </button>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section class="row justify-content-lg-center">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <section class="row justify-content-md-center">
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
                 <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -37,255 +77,227 @@
             </nav>
         </section>
     </header><!-- Fin Tarea 2 - Header - Gio -->
-    <!-- -------------------------------------- -->
-    <main>
-        <!---------------------------------------------------------------------------
-        - Aqui dejo seccionada las tareas para que haya mas orden.
-        - Cada uno agregue su tarea dentro del tag section que le corresponda. 
-        - En caso de que falte agregar un tag section con el nombre de cada tarea-
-            comentando al lado el numero y nombre de la tarea.
-    ------------------------------------------------------------------------------->
+    <!-- ----------------- -->
+    <!---------------------------------------------------------------------------
+                - Aqui dejo seccionada las tareas para que haya mas orden.
+                - Cada uno agregue su tarea dentro del tag section que le corresponda. 
+                - En caso de que falte agregar un tag section con el nombre de cada tarea-
+                    comentando al lado el numero y nombre de la tarea.
+            ------------------------------------------------------------------------------->
+    <!-- ----------------- -->
+    <main class="container">
 
         <section>
-            <!-- Tarea 12 - Seccion principal - Fede  -->
-            <div class="main-background">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm main-background-responsive">
-                            <h1>SAN DIEGO</h1>
-                            <p class="result-p">
-                                San Diego es una ciudad estadounidense. Ubicada en el condado de San Diego, California;
-                                en la costa del Océano Pacífico en el Sur de California, aproximadamente 190 kilómetros
-                                al sur de Los Ángeles e inmediatamente adyacente a la frontera con México.
-                            </p>
-                        </div>
-                        <div class="col-sm offset-md-2 d-flex justify-content-center align-items-center ">
-
-                            <img src="./img/san-diego.png" alt="..." class="map-img">
-
-                        </div>
-                    </div>
+            <!-- Tarea 17 - Breadcrumb - Gio -->
+            <div id="bread" aria-label="breadcrumb">
+                    <ol class="breadcrumb bg-light ">
+                        <li class="breadcrumb-item "><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">San Diego</li>
+                    </ol>
                 </div>
+        </section><!-- Fin Tarea 17 - Breadcrumb - Gio -->
+
+        <div class="row">
+            <!-- PARTE IZQUIERDA-->
+            <div class="col-3">
+                <!-- PARTE IZQUIERDA-->
+                <section>
+                    <!-- Tarea 16 - Menu lateral - Gio-->
+
+
+
+                </section><!-- Fin Tarea 16 - Menu lateral - Gio-->
+
+
+                <section>
+                    <!--Tarea 15 - Destinos relacionados cercanos - Gio-->
+
+                </section>
+
             </div>
-        </section><!-- fin seccion principal -->
+            <!-- PARTE DERECHA-->
+            <div class="col-9">
+                <!-- PARTE DERECHA-->
 
-        <Section>
-            <!-- INICIO TAREA 12-->
-            
-        </Section> <!-- FIN TAREA 12-->
-
-        <!-- --------------------- -->
-
-        <section>
-            <!-- Tarea 13 - Porcentaje de ocupacion - Fede  -->
-
-        </section><!-- Fin Porcentaje de ocupacion -->
-
-        <!-- --------------------- -->
-
-        <section><!-- Tarea 14 - Resultados de la busqueda - Fiorella -->
-
-            <div class="container">
-                <div class="col">
-                    <div class="card mb-3" style="max-width: 915px;">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img src="./img/hotel1.jpg" class="card-img" alt="...">
-                                <div class="alert alert-success" role="alert">
-                                    Aprovecha, todavia hay disponibilidad!
+                <section>
+                    <!-- Tarea 12 - Seccion principal - Fede  -->
+                    <div class="main-background">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm main-background-responsive">
+                                    <h1>SAN DIEGO</h1>
+                                    <p class="result-p">
+                                        San Diego es una ciudad estadounidense. Ubicada en el condado de San Diego,
+                                        California;
+                                        en la costa del Océano Pacífico en el Sur de California, aproximadamente 190
+                                        kilómetros
+                                        al sur de Los Ángeles e inmediatamente adyacente a la frontera con México.
+                                    </p>
                                 </div>
-                            </div>
-                            <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Hotel Handlery</h5>
-                                <p class="card-text">Ubicado solo a unos minutos de las mejores atracciones. Veni a descansar junto a nuestra piscina climatizada al aire libre con paisajes tropicales.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <span class="badge badge-warning botoncolor">9.5</span>
-                                <a href="#" class="btn btn-warning botondisponibilidad botoncolor">Ver disponibilidad</a>
-                            </div>
+                                <div class="col-sm offset-md-2 d-flex justify-content-center align-items-center ">
+                                    <img src="./img/san-diego.png" alt="..." class="map-img">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3" style="max-width: 915px;">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img src="./img/hotel2.jpg" class="card-img" alt="...">
-                                <div class="alert alert-success" role="alert">
-                                    Aprovecha, todavia hay disponibilidad!
+                </section><!-- Fin Tarea 12 - Seccion principal - Fede  -->
+
+
+                <section>
+                    <!-- Tarea 13 - Porcentaje de ocupacion - Fede  -->
+
+                </section><!-- Fin Porcentaje de ocupacion -->
+
+
+                <section>
+                    <!-- Tarea 14 - Resultados de la busqueda - Fiorella -->
+
+                    <div class="container">
+                        <div class="col">
+                            <div class="card mb-3" style="max-width: 915px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="./img/hotel1.jpg" class="card-img" alt="...">
+                                        <div class="alert alert-success" role="alert">
+                                            Aprovecha, todavia hay disponibilidad!
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Hotel Handlery</h5>
+                                            <p class="card-text">Ubicado solo a unos minutos de las mejores atracciones.
+                                                Veni a
+                                                descansar junto a nuestra piscina climatizada al aire libre con paisajes
+                                                tropicales.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                            <span class="badge badge-warning botoncolor">9.5</span>
+                                            <a href="#" class="btn btn-warning botondisponibilidad botoncolor">Ver
+                                                disponibilidad</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Hotel Hiton</h5>
-                                <p class="card-text">El hotel tiene cuatro restaurantes y bares, una piscina climatizada de agua salada, una piscina de hidromasaje y un gimnasio.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <span class="badge badge-warning botoncolor">8.7</span>
-                                <a href="#" class="btn btn-warning botondisponibilidad botoncolor">Ver disponibilidad</a>
+                            <div class="card mb-3" style="max-width: 915px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="./img/hotel2.jpg" class="card-img" alt="...">
+                                        <div class="alert alert-success" role="alert">
+                                            Aprovecha, todavia hay disponibilidad!
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Hotel Hiton</h5>
+                                            <p class="card-text">El hotel tiene cuatro restaurantes y bares, una piscina
+                                                climatizada de agua salada, una piscina de hidromasaje y un gimnasio.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                            <span class="badge badge-warning botoncolor">8.7</span>
+                                            <a href="#" class="btn btn-warning botondisponibilidad botoncolor">Ver
+                                                disponibilidad</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            <div class="card mb-3" style="max-width: 915px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="./img/holidainnexpress.jpg" class="card-img" alt="...">
+                                        <div class="alert alert-warning" role="alert">
+                                            Apurate, queda poca disponibilidad!
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Holiday Inn Express</h5>
+                                            <p class="card-text">Diseñados para el viajero inteligente, los hoteles
+                                                Holiday Inn
+                                                Express ofrecen estadías limpias, consistentes y cómodas siempre que
+                                                necesites
+                                                estar ahí en persona.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                            <span class="badge badge-warning botoncolor">7.6</span>
+                                            <a href="#" class="btn btn-warning botondisponibilidad botoncolor">Ver
+                                                disponibilidad</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 915px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="./img/pacificterrace.jpg" class="card-img" alt="...">
+                                        <div class="alert alert-warning" role="alert">
+                                            Apurate, queda poca disponibilidad!
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Pacific Terrace Hotel</h5>
+                                            <p class="card-text">El Pacific Terrace Hotel ofrece alojamiento de cuatro
+                                                diamantes
+                                                frente a la playa en la playa del Pacífico de San Diego. Quítate los
+                                                zapatos,
+                                                acomódate en la silla del balcón, bebe una bebida relajante y contempla
+                                                la
+                                                increíble costa de California.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                            <span class="badge badge-warning botoncolor">7.1</span>
+                                            <a href="#" class="btn btn-warning botondisponibilidad botoncolor">Ver
+                                                disponibilidad</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 915px;">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img src="./img/oldtowninn.jpg" class="card-img" alt="...">
+                                        <div class="alert alert-danger" role="alert">
+                                            Lo sentimos, no hay mas disponibilidad!
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Hote Handlery</h5>
+                                            <p class="card-text">Habitaciones y suites encantadoramente espaciosas,
+                                                servicios
+                                                útiles GRATUITOS, a minutos de parques temáticos, playas y el
+                                                aeropuerto,
+                                                paquetes y ofertas especiales de valor. </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+                                            <span class="badge badge-warning botoncolor">6.8</span>
+                                            <a href="#" class="btn btn-warning botondisponibilidad botoncolor">Ver
+                                                disponibilidad</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3" style="max-width: 915px;">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img src="./img/holidainnexpress.jpg" class="card-img" alt="...">
-                                <div class="alert alert-warning" role="alert">
-                                    Apurate, queda poca disponibilidad!
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Holiday Inn Express</h5>
-                                <p class="card-text">Diseñados para el viajero inteligente, los hoteles Holiday Inn Express ofrecen estadías limpias, consistentes y cómodas siempre que necesites estar ahí en persona.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <span class="badge badge-warning botoncolor">7.6</span>
-                                <a href="#" class="btn btn-warning botondisponibilidad botoncolor">Ver disponibilidad</a>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3" style="max-width: 915px;">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img src="./img/pacificterrace.jpg" class="card-img" alt="...">
-                                <div class="alert alert-warning" role="alert">
-                                    Apurate, queda poca disponibilidad!
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Pacific Terrace Hotel</h5>
-                                <p class="card-text">El Pacific Terrace Hotel ofrece alojamiento de cuatro diamantes frente a la playa en la playa del Pacífico de San Diego. Quítate los zapatos, acomódate en la silla del balcón, bebe una bebida relajante y contempla la increíble costa de California.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <span class="badge badge-warning botoncolor">7.1</span>
-                                <a href="#" class="btn btn-warning botondisponibilidad botoncolor">Ver disponibilidad</a>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3" style="max-width: 915px;">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img src="./img/oldtowninn.jpg" class="card-img" alt="...">
-                                <div class="alert alert-danger" role="alert">
-                                    Lo sentimos, no hay mas disponibilidad!
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Hote Handlery</h5>
-                                <p class="card-text">Habitaciones y suites encantadoramente espaciosas, servicios útiles GRATUITOS, a minutos de parques temáticos, playas y el aeropuerto, paquetes y ofertas especiales de valor. </p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <span class="badge badge-warning botoncolor">6.8</span>
-                                <a href="#" class="btn btn-warning botondisponibilidad botoncolor">Ver disponibilidad</a>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </section> <!-- Fin Resultados de la busqueda -->
+
             </div>
+        </div>
 
 
-        </section> <!-- Fin Resultados de la busqueda -->
 
-        <!------------------------------>
-        <section>
-            <!--Tarea 15 - Destinos relacionados cercanos - Gio-->
 
-        </section>
 
-        <!------------------------------->
 
         <section>
             <!-- Tarea 16 - Menu lateral - Gio-->
 
-            <!-- Tarea 18 - Comentarios del menu lateral - Fede -->
-            <section>
-                <div class="container">
-                    <div class="row">    
-                        <div class="col-4">
-                            <div class="row"> <!-- Foto y nombre usuario bandera-->
-                                <div class="col-3"> <!-- foto -->                                            
-                                    <img src="./img/ppFede.jpg" alt="" class="perfil-img-size rounded-circle">                                            
-                                </div>
-                                <div class="col-9"> 
-                                    <h5>Fede_traveler</h5>
-                                    <h6>Venezuela (BANDERA)</h6>
-                                </div>
-                                
-                            </div>
-                            <div class="form-group">
-                                <label class="text-primary" for="exampleFormControlTextarea1">Fede_traveler nos interesa tu comentario</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-
-                            <hr>                            
-
-                            <div class="row"> <!-- Foto y nombre usuario bandera-->
-                                <div class="col-3"> <!-- foto -->                                            
-                                    <img src="./img/ppFio.jpg" alt="" class="perfil-img-size rounded-circle">                                            
-                                </div>
-                                <div class="col-9"> 
-                                    <h5>Fiorella_DeFelicelo4</h5>
-                                    <h6>Chile (BANDERA)</h6>
-                                </div>
-                                
-                            </div>
-                            <div> <!-- comentarios-->
-                                <div class="input-group">
-                                    <p>Muy bueno el desayuno!!! y la comida en general</p>
-                                </div>
-                            </div>
-
-                            <hr>
-
-                            <div class="row"> <!-- Foto y nombre usuario bandera-->
-                                <div class="col-3"> <!-- foto -->                                            
-                                    <img src="./img/ppGio.jpg" alt="" class="perfil-img-size rounded-circle">                                            
-                                </div>
-                                <div class="col-9"> 
-                                    <h5>Gio-Vani</h5>
-                                    <h6>Colombia (BANDERA)</h6>
-                                </div>
-                                
-                            </div>
-                            <div> <!-- comentarios-->
-                                <div class="input-group">
-                                    <p>Excelente relacion precio calidad</p>
-                                </div>
-                            </div>
-
-                            <hr>
-
-                            <div class="row"> <!-- Foto y nombre usuario bandera-->
-                                <div class="col-3"> <!-- foto -->                                            
-                                    <img src="./img/ppJoaquin.jpg" alt="" class="perfil-img-size rounded-circle">                                            
-                                </div>
-                                <div class="col-9"> 
-                                    <h5>Joaquin-Soria</h5>
-                                    <h6>Argentina (BANDERA)</h6>
-                                </div>
-                                
-                            </div>
-                            <div> <!-- comentarios-->
-                                <div class="input-group">
-                                    <p>Vuela el wifi! las habitaciones medio flojas</p>
-                                </div>
-                            </div>
-
-                            <hr>
-                            
-                        </div>
-                    </div>
-                </div>
-                
-            </section>
-            <!-- Fin tarea 18 - -->
+            
 
         </section>
 
         <!-- --------------------- -->
-
     </main><!-- fin contenedor principal -->
     <!-- --------------------------- -->
 

@@ -1,3 +1,64 @@
+.background-color {
+    
+    background-color: #ffff52; 
+}
+ #picker {
+     background: #fff  ;
+     cursor: pointer;
+     padding: 5px 10px ;
+     border: 1px solid #ccc ;
+     width: 100%;
+ }
+
+ .icon-flag {
+     display: inline-block;
+     width: 20px;
+     height: 20px;
+ }
+
+ .icon-flag::before {
+     content: '';
+     display: block;
+     
+     width: 20px;
+     height: 20px;
+ }
+
+ .flag-argentina {
+    background-image: url(../img/flags/argentina.jpg);
+    background-size: cover;
+ }
+
+ .flag-germany {
+    background-image: url(../img/flags/germany.png);
+    background-size: cover;
+ }
+
+ .flag-turkey {
+    background-image: url(../img/flags/turkey.png);
+    background-size: cover;  
+ }
+
+ .flag-japan {
+    background-image: url(../img/flags/japan.png);
+    background-size: cover;
+ }
+
+ .flag-chile {
+    background-image: url(../img/flags/chile.png);
+    background-size: cover;
+ }
+
+ .flag-colombia {
+    background-image: url(../img/flags/colombia.png);
+    background-size: cover;
+ }
+
+ .flag-venezuela {
+    background-image: url(../img/flags/venezuela.png);
+    background-size: cover;
+ }
+ 
 #picker {
     background: #fff  ;
     cursor: pointer;
@@ -76,6 +137,7 @@
     position: relative;   
     z-index: 2;
 }
+
 .divider-text:after {
     content: "";
     position: absolute;
@@ -85,7 +147,9 @@
     left: 0;
     z-index: 1;
 }
-
+.mt-50{
+    margin-top: 2%;
+}
 
 .perfil-img-size {
     width: 55px;
@@ -96,13 +160,14 @@
     .main-background {
         background: none;
     }
-}
-@media (max-width: 576px) {
     .main-background-responsive {
         background: url(https://www.visittheusa.mx/sites/default/files/styles/hero_m_1300x700/public/images/hero_media_image/2016-11/Hero_San%20Diego%20Skyline_John%20Bahu.jpg?itok=nz1729r_);
         background-size: 100% auto;
         background-repeat: no-repeat;
     }
+}
+@media (max-width: 768px) {
+    
 }
 
 .botondisponibilidad {
