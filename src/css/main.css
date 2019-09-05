@@ -1,3 +1,48 @@
+.background-color {
+    
+    background-color: #ffff52; 
+}
+ #picker {
+     background: #fff  ;
+     cursor: pointer;
+     padding: 5px 10px ;
+     border: 1px solid #ccc ;
+     width: 100%;
+ }
+
+ .icon-flag {
+     display: inline-block;
+     width: 20px;
+     height: 20px;
+ }
+
+ .icon-flag::before {
+     content: '';
+     display: block;
+     
+     width: 20px;
+     height: 20px;
+ }
+
+ .flag-argentina {
+    background-image: url(../img/flags/argentina.jpg);
+    background-size: cover;
+ }
+
+ .flag-germany {
+    background-image: url(../img/flags/germany.png);
+    background-size: cover;
+ }
+
+ .flag-turkey {
+    background-image: url(../img/flags/turkey.png);
+    background-size: cover;  
+ }
+
+ .flag-japan {
+    background-image: url(../img/flags/japan.png);
+    background-size: cover;
+ }
 #picker {
     background: #fff  ;
     cursor: pointer;
