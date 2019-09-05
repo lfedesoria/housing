@@ -14,13 +14,54 @@
     <header class="container">
         <!-- Tarea 2 - Header - Gio -->
         <section class="row">
-            <a href="index.html">
-                <img src="./img/H2.svg" width="150" alt="Housing">
-            </a>
-            <a class="navbar-brand align-self-center text-dark" href="#">Easy-Home</a>
+            <div class="col-lg-8 col-md-6 col-4">
+                <a href="index.html">
+                    <img src="./img/H2.svg" width="150" alt="Housing">
+                </a>
+                <a class="navbar-brand align-self-center text-dark d-none d-md-inline" href="#">Housing</a>
+            </div>
+            <div class="float-right btn-group">
+                <ul class="nav nav-tabs no-border mt-2">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false"><img src="./img/ar.png" alt=""></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item disabled" href="#">Elija su pais</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"><img src="./img/esp.png" alt=""></a>
+                            <a class="dropdown-item" href="#"><img src="./img/br.png" alt=""></a>
+                            <a class="dropdown-item" href="#"><img src="./img/us.png" alt=""></a>
+                            <a class="dropdown-item" href="#"><img src="./img/uk.png" alt=""></a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown mx-1">
+                        <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">$ ARS</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item disabled" href="#">Elija su moneda</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">$ USD</a>
+                            <a class="dropdown-item" href="#">€ EUR</a>
+                            <a class="dropdown-item" href="#">£ GBP</a>
+                            <a class="dropdown-item" href="#">R$ BRL</a>
+                        </div>
+                    </li>
+                    <li>
+                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#signinModal">
+                            SignIn
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#loginModal">
+                            LogIn
+                        </button>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section class="row justify-content-lg-center">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <section class="row justify-content-md-center">
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
                 <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -37,54 +78,111 @@
             </nav>
         </section>
     </header><!-- Fin Tarea 2 - Header - Gio -->
+    <!-- ----------------- -->
+    <!---------------------------------------------------------------------------
+                - Aqui dejo seccionada las tareas para que haya mas orden.
+                - Cada uno agregue su tarea dentro del tag section que le corresponda. 
+                - En caso de que falte agregar un tag section con el nombre de cada tarea-
+                    comentando al lado el numero y nombre de la tarea.
+            ------------------------------------------------------------------------------->
+    <!-- ----------------- -->
 
-    <!-- -------------------------------------- -->
-    <main>
-        <!---------------------------------------------------------------------------
-        - Aqui dejo seccionada las tareas para que haya mas orden.
-        - Cada uno agregue su tarea dentro del tag section que le corresponda. 
-        - En caso de que falte agregar un tag section con el nombre de cada tarea-
-            comentando al lado el numero y nombre de la tarea.
-    ------------------------------------------------------------------------------->
-
+    <main class="container">
         <section>
-            <!-- Tarea 17 - Breadcrumb - Gio  -->
+            <!-- Tarea 17 - Breadcrumb - Gio -->
+            <div id="bread" aria-label="breadcrumb">
+                <ol class="breadcrumb bg-light ">
+                    <li class="breadcrumb-item "><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item "><a href="#">San Diego</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Elotel</li>
+                </ol>
+            </div>
+        </section><!-- Fin Tarea 17 - Breadcrumb - Gio -->
 
-        </section><!-- fin Breadcrumb -->
 
-        <!-- --------------------- -->
+        <div class="row">
+            <!-- PARTE IZQUIERDA-->
+            <div class="col-3">
+                <!-- PARTE IZQUIERDA-->
 
-        <section>
-            <!-- Tarea 18 - Comentarios - Fede  -->
 
-        </section><!-- Fin Comentarios -->
+                <section>
+                    <!-- Tarea 16 - Menu lateral - Gio-->
 
-        <!-- --------------------- -->
 
-        <section>
-            <!-- Tarea 19 - Resultado - Joaquin -->
 
-        </section> <!-- Fin Resultado -->
+                </section><!-- Fin Tarea 16 - Menu lateral - Gio-->
 
-        <!------------------------------>
-        <section><!--Tarea 20 - Detalles de disponibilidad - Fiorella-->
 
-        </section>
+                <section>
+                    <!-- Tarea 18 - Comentarios - Fede  -->
 
-        <!------------------------------->
+                </section><!-- Fin Comentarios -->
+            </div>
 
-        <section>
-            <!-- Tarea 21 - Detalles de habitacion - Fiorella-->
+            <!-- PARTE DERECHA-->
+            <div class="col-9">
+                <!-- PARTE DERECHA-->
 
-        </section>
+                <section>
+                    <!-- Tarea 19 - Resultado - Joaquin -->
 
-        <!------------------------->
 
-        <section>
-            <!-- Tarea 22 - Preguntas frecuentas - Cecilia-->
+                </section> <!-- Fin Resultado -->
+                <!------------------------------>
 
-        </section>
 
+                <section><!--Tarea 20 - Detalles de disponibilidad - Fiorella-->
+                    <h1>Disponiblidad</h1>
+                    <div class="container dispo">
+                        <div class="row">
+                            <div class="col">
+                                <p><strong>Fecha de entrada</strong></p>
+                                <p>mié, 11 sep 2019</p>
+                                <p class="small">A partir de las 15:00</p>
+                            </div>
+                            <span class="border-right"></span>
+                            <div class="col">
+                                    <p><strong>Fecha de salida</strong></p>
+                                    <p>lun, 7 oct 2019</p>
+                                    <p class="small">Estancia de 26 noches</p>
+
+                            </div>
+                            <div class="col">
+                                    <p><strong>Huespedes</strong></p>
+                                    <p>2 adultos</p>
+                            </div>
+                            <div class="col">
+                                    <button type="button" class="btn btn-warning botoncolor">Modificar busqueda</button>
+
+                            </div>
+                            
+                        </div>
+
+
+                    </div>
+                </section>
+                <!------------------------------->
+
+
+                <section>
+                    <!-- Tarea 21 - Detalles de habitacion - Fiorella-->
+
+
+                </section>
+                <!------------------------->
+
+
+                <section>
+                    <!-- Tarea 22 - Preguntas frecuentas - Cecilia-->
+
+
+                </section>
+
+
+
+            </div>
+        </div>
         <!-- --------------------- -->
 
     </main><!-- fin contenedor principal -->

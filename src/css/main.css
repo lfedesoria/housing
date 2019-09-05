@@ -76,6 +76,7 @@
     position: relative;   
     z-index: 2;
 }
+
 .divider-text:after {
     content: "";
     position: absolute;
@@ -85,25 +86,40 @@
     left: 0;
     z-index: 1;
 }
-
+.mt-50{
+    margin-top: 2%;
+}
 
 @media (max-width: 576px) {
     .main-background {
         background: none;
     }
-}
-@media (max-width: 576px) {
     .main-background-responsive {
         background: url(https://www.visittheusa.mx/sites/default/files/styles/hero_m_1300x700/public/images/hero_media_image/2016-11/Hero_San%20Diego%20Skyline_John%20Bahu.jpg?itok=nz1729r_);
         background-size: 100% auto;
         background-repeat: no-repeat;
     }
 }
+@media (max-width: 768px) {
+    
+}
 
 .botondisponibilidad {
-    margin-left: 390px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 
 .botoncolor  {
     background-color: #ffff52 !important;
+}
+
+.dispo {
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+    width: 100%;
+    border: 15px solid #ffff52;
+    padding: 50px;
+    margin: 20px;
 }
