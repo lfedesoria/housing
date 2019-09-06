@@ -1,3 +1,64 @@
+.background-color {
+    
+    background-color: #ffff52; 
+}
+ #picker {
+     background: #fff  ;
+     cursor: pointer;
+     padding: 5px 10px ;
+     border: 1px solid #ccc ;
+     width: 100%;
+ }
+
+ .icon-flag {
+     display: inline-block;
+     width: 20px;
+     height: 20px;
+ }
+
+ .icon-flag::before {
+     content: '';
+     display: block;
+     
+     width: 20px;
+     height: 20px;
+ }
+
+ .flag-argentina {
+    background-image: url(../img/flags/ar.png);
+    background-size: cover;
+ }
+
+ .flag-germany {
+    background-image: url(../img/flags/germany.png);
+    background-size: cover;
+ }
+
+ .flag-turkey {
+    background-image: url(../img/flags/turkey.png);
+    background-size: cover;  
+ }
+
+ .flag-japan {
+    background-image: url(../img/flags/japan.png);
+    background-size: cover;
+ }
+
+ .flag-chile {
+    background-image: url(../img/flags/chile.png);
+    background-size: cover;
+ }
+
+ .flag-colombia {
+    background-image: url(../img/flags/colombia.png);
+    background-size: cover;
+ }
+
+ .flag-venezuela {
+    background-image: url(../img/flags/venezuela.png);
+    background-size: cover;
+ }
+ 
 #picker {
     background: #fff  ;
     cursor: pointer;
@@ -90,6 +151,11 @@
     margin-top: 2%;
 }
 
+.perfil-img-size {
+    width: 55px;
+    height: 55px;
+}
+
 @media (max-width: 576px) {
     .main-background {
         background: none;
@@ -112,4 +178,14 @@
 
 .botoncolor  {
     background-color: #ffff52 !important;
+}
+
+.dispo {
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+    width: 100%;
+    border: 15px solid #ffff52;
+    padding: 50px;
+    margin: 20px;
 }
