@@ -24,4 +24,4 @@ $("#picker").daterangepicker({
     $("#date").html(start.format('MMM DD, YY')+ ' - ' + end.format('MMM DD, YY ')) 
 });
 
-$("#date").html(moment().subtract(29, "days").format('MMM DD, YY')+ ' - ' + moment().format('MMM DD, YY '))
+$("#date").html(moment().subtract(29, "days").format('MMM DD, YY')+ ' - ' + moment().format('MMM DD, YY '));
