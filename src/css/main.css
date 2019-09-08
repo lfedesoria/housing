@@ -1,13 +1,17 @@
-.background-color {
-    
+.background-color {    
     background-color: #ffff52; 
 }
+
  #picker {
      background: #fff  ;
      cursor: pointer;
      padding: 5px 10px ;
      border: 1px solid #ccc ;
      width: 100%;
+ }
+
+ .title-subcription {
+     height: 100%;
  }
 
  .icon-flag {
@@ -66,15 +70,19 @@
     border: 1px solid #ccc ;
     width: 100%;
 }
+
 .subcription {
     background: blue;
 }
+
 .background-color {
      background-color: #ffff52; 
 }
+
 .title {
     font-size: 2.25rem;
 }
+
 .price {
     position: absolute;
     bottom: 0;
@@ -84,53 +92,71 @@
     padding: 6px;
     background:#ffff52;
 }
+
 .card-without-border {
     border: 0!important;
     border-radius:0;
 }
+
 .icon-alert {
     font-size: 150px;
-} 
+}
+
+.icon-at {
+    font-size: 75px;
+}
+
 .image-result {
     max-width: 100%;
     height: 500px;
 }
+
 .main-background {
     background: url(https://www.visittheusa.mx/sites/default/files/styles/hero_m_1300x700/public/images/hero_media_image/2016-11/Hero_San%20Diego%20Skyline_John%20Bahu.jpg?itok=nz1729r_);
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
+
 .result-p {
     color: white; 
 }
+
 .map-img {
     max-width: 100%;
     height: auto;
 }
+
 .map-backgrond {
     background: black;
 }
+
 .b-active{
     border-bottom: 5px solid #fcce00;
 }
+
 .b-no-active{
     border-bottom: 1px solid lightgrey;
 }
+
 .no-border{
     border: 0 solid #ccc !important;
 }
+
 .facebook-btn{  
     background:#3C589C !important; 
 }
+
 .google-btn{ 
     background: #DF4B3B!important;
 }
+
 .divider-text {
     position: relative;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
 .divider-text span {
     padding: 7px;
     font-size: 12px;
@@ -147,6 +173,7 @@
     left: 0;
     z-index: 1;
 }
+
 .mt-50{
     margin-top: 2%;
 }
@@ -176,10 +203,12 @@
     height: 46px;
     padding: 0 10px;
 }
+
 .rate:not(:checked) > input {
     position:absolute;
     top:-9999px;
 }
+
 .rate:not(:checked) > label {
     float:right;
     width:1em;
@@ -189,16 +218,20 @@
     font-size:30px;
     color:#ccc;
 }
+
 .rate:not(:checked) > label:before {
     content: '★ ';
 }
+
 .rate > input:checked ~ label {
     color: #ffc700;    
 }
+
 .rate:not(:checked) > label:hover,
 .rate:not(:checked) > label:hover ~ label {
     color: #deb217;  
 }
+
 .rate > input:checked + label:hover,
 .rate > input:checked + label:hover ~ label,
 .rate > input:checked ~ label:hover,
@@ -229,9 +262,11 @@
 .b-no-active{
     transition: ease 0.4s;
 }
+
 .b-no-active:hover{
     border-bottom: solid 4px lightgray;
 }
+
 .gradient-card-bg{
     text-shadow: 2px 2px 3px  rgba(0,0,0,1)
 }
