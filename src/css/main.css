@@ -225,3 +225,10 @@
     padding: 50px;
     margin: 20px;
 }
+
+.b-no-active{
+    transition: ease 0.3s;
+}
+.b-no-active:hover{
+    border-bottom: solid 3px lightgray;
+}
