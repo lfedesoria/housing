@@ -233,6 +233,5 @@
     border-bottom: solid 4px lightgray;
 }
 .gradient-card-bg{
-    background: rgb(0,0,0);
-    background: linear-gradient(177deg, rgba(0,0,0,0.5606617647058824) 15%, rgba(0,0,0,0) 40%);
+    text-shadow: 2px 2px 3px  rgba(0,0,0,1)
 }
