@@ -232,12 +232,9 @@
 .b-no-active:hover{
     border-bottom: solid 4px lightgray;
 }
-.gradient-card-bg{
+.shadow-text{
     text-shadow: 2px 2px 3px  rgba(0,0,0,1)
 }
-
-
-
 .map-container-5{
     overflow:hidden;
     padding-bottom:56.25%;
