@@ -286,6 +286,12 @@
 .gradient-card-bg{
     text-shadow: 2px 2px 3px  rgba(0,0,0,1)
 }
+.padcard {
+    padding: 3px;
+} 
+.padcard2 {
+    padding: 10px;
+}
 
 .paddingbox {
     padding: 1px;
