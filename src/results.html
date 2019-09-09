@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Housing</title>
+    <link rel="shortcut icon" href="./img/H2.png">
     <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/23e52ac974.js"></script>
 
 </head>
 
@@ -33,6 +35,7 @@
                             <a class="dropdown-item" href="#"><img src="./img/br.png" alt=""></a>
                             <a class="dropdown-item" href="#"><img src="./img/us.png" alt=""></a>
                             <a class="dropdown-item" href="#"><img src="./img/uk.png" alt=""></a>
+
                         </div>
                     </li>
                     <li class="nav-item dropdown mx-1">
@@ -98,67 +101,37 @@
         </section><!-- Fin Tarea 17 - Breadcrumb - Gio -->
 
         <div class="row">
-            <!-- PARTE IZQUIERDA-->
             <div class="col-3">
                 <!-- PARTE IZQUIERDA-->
                 <section>
                     <!-- Tarea 16 - Menu lateral - Gio-->
 
-                    <div class="card-group-item">
-                        <header class="card-header">
-                            <h6 class="title">Selection </h6>
-                        </header>
-                        <div class="filter-content">
-                            <div class="card-body">
-                                <div class="custom-control custom-checkbox">
-                                    <span class="float-right badge badge-light round">52</span>
-                                    <input type="checkbox" class="custom-control-input" id="Check1">
-                                    <label class="custom-control-label" for="Check1">Samsung</label>
-                                </div>
-
-                                <div class="custom-control custom-checkbox">
-                                    <span class="float-right badge badge-light round">132</span>
-                                    <input type="checkbox" class="custom-control-input" id="Check2">
-                                    <label class="custom-control-label" for="Check2">Black berry</label>
-                                </div>
-
-                                <div class="custom-control custom-checkbox">
-                                    <span class="float-right badge badge-light round">17</span>
-                                    <input type="checkbox" class="custom-control-input" id="Check3">
-                                    <label class="custom-control-label" for="Check3">Samsung</label>
-                                </div>
-
-                                <div class="custom-control custom-checkbox">
-                                    <span class="float-right badge badge-light round">7</span>
-                                    <input type="checkbox" class="custom-control-input" id="Check4">
-                                    <label class="custom-control-label" for="Check4">Other Brand</label>
-                                </div>
-                            </div> <!-- card-body.// -->
-                        </div>
-                    </div> <!-- card-group-item.// -->
                 </section><!-- Fin Tarea 16 - Menu lateral - Gio-->
 
                 <section class="d-none d-md-block">
                     <!--Tarea 15 - Destinos relacionados cercanos - Gio-->
                     <div class="container">
                         <div class="card-group-item">
-                            <h5 class="">Recomendaciones</h5>
+                            <h5 class="text-truncate">Recomendaciones</h5>
                             <div class="card bg-dark card-without-border my-2">
                                 <img src="./img/la.jpg" class="card-img" alt="...">
                                 <div class="card-img-overlay">
-                                    <h5 class="card-title text-light gradient-card-bg ml-n1 mt-n1">California</h5>
+                                    <h5 class="card-title text-light gradient-card-bg ml-n1 mt-n1 text-truncate">
+                                        California</h5>
                                 </div>
                             </div>
                             <div class="card bg-dark card-without-border my-2">
                                 <img src="./img/sfb.jpg" class="card-img" alt="...">
                                 <div class="card-img-overlay">
-                                    <h5 class="card-title text-light gradient-card-bg ml-n1 mt-n1">San Francisco</h5>
+                                    <h5 class="card-title text-light gradient-card-bg ml-n1 mt-n1 text-truncate">San
+                                        Francisco</h5>
                                 </div>
                             </div>
                             <div class="card bg-dark card-without-border my-2">
                                 <img src="./img/vegas.jpg" class="card-img" alt="...">
                                 <div class="card-img-overlay">
-                                    <h5 class="card-title text-light gradient-card-bg ml-n1 mt-n1">Las Vegas</h5>
+                                    <h5 class="card-title text-light gradient-card-bg ml-n1 mt-n1 text-truncate">Las
+                                        Vegas</h5>
                                 </div>
                             </div>
 
@@ -251,9 +224,30 @@
                             </div>
                         </div>
                     </div>
-
-
                 </section><!-- Fin Porcentaje de ocupacion -->
+
+                <section class="container mb-3">
+                    <!-- Tarea 16 - Filtro de busqueda - Gio -->
+                    <div class="row justify-content-end mr-3">
+                        <div class="align-items-center card-title mx-2">
+                            <h5>Ordenar por: </h5>
+                        </div>
+                        <div class="col-sm-3 mt-4 mt-sm-0">
+                            <div class="input-group-append">
+                                <select class="custom-select" id="inputGroupSelect04">
+                                    <option selected>Mas Relevantes</option>
+                                    <option value="1">Mayor Puntuacion</option>
+                                    <option value="2">Mayor Precio</option>
+                                    <option value="3">Menor precio</option>
+                                </select>
+                            </div>
+                        </div>
+                        <a href="#" class="align-self-center" data-toggle="modal" data-target="#filtrosModal">
+                            Mas Filtros...
+                        </a>
+                    </div>
+                </section><!-- Fin Tarea 16 - Filtro de busqueda - Gio -->
+
 
 
                 <section>
@@ -391,14 +385,6 @@
             </div>
         </div>
 
-
-        <section>
-            <!-- Tarea 16 - Menu lateral - Gio-->
-
-
-
-        </section>
-
         <!-- --------------------- -->
     </main><!-- fin contenedor principal -->
     <!-- --------------------------- -->
@@ -407,8 +393,39 @@
     <footer>
         <!-- Footer -->
 
+        <div class="background-color" style="width: 100%;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <p><a href="">Países</a></p>
+                        <p><a href="">Regiones</a></p>
+                        <P><a href="">ciudades</a></p>
+                        <p><a href="">Zonas</a></p>
+                        <p><a href="">Auropuertos</a></p>
+                        <p><a href="">Hoteles</a></p>
+                        <p><a href="">Lugares de Interés</a></p>
+                    </div>
+                    <div class="col-sm">
+                        <p><a href="">Casas</a></p>
+                        <p><a href="">Apartamentos</a></p>
+                        <p><a href="">Resorts</a></p>
+                        <p><a href="">Villas</a></p>
+                        <p><a href="">Albergues</a></p>
+                        <p><a href="">Bed and Breakfast</a></p>
+                        <p><a href="">Hostales y Pensiones</a></p>
+                    </div>
+                    <div class="col-sm">
+                        <p><a href="https://www.booking.com">Booking.com</a></p>
+                        <p><a href="https://www.priceline.com">Priceline.com</a></p>
+                        <p><a href="https://www.kayak.com.ar">Kayak.com</a></p>
+                        <p><a href="https://www.agoda.com">Agoda.com</a></p>
+                        <p><a href="https://www.rentalcars.com">Rentalcars.com</a></p>
+                        <p><a href="https://www.trivago.com/">Trivago.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer><!-- fin Footer -->
-
 
 
 
@@ -424,7 +441,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="modal-body"">
-                                <div class=" card bg-light">
+                        <div class=" card bg-light">
                                 <article class="card-body mx-auto" style="max-width: 400px;">
                                     <h4 class="card-title mt-3 text-center">Crear Cuenta</h4>
                                     <p class="text-center">Empieza con tu cuenta gratuita</p>
@@ -542,7 +559,73 @@
         </div><!-- Fin Modal de Inicio de sesion y creacion de cuenta / Tarea 2 - Header -->
     </div>
 
-    <script src="https://kit.fontawesome.com/23e52ac974.js"></script>
+
+
+    <div class="modal" id="filtrosModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenteredLabel">Filtrar Por</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+
+
+                            <div class="card-group-item">
+                                <header class="card-header">
+                                    <h6 class="title">Selection </h6>
+                                </header>
+                                <div class="filter-content">
+                                    <div class="card-body">
+                                        <div class="custom-control custom-checkbox">
+                                            <span class="float-right badge badge-light round">52</span>
+                                            <input type="checkbox" class="custom-control-input" id="Check1">
+                                            <label class="custom-control-label" for="Check1">Samsung</label>
+                                        </div>
+
+                                        <div class="custom-control custom-checkbox">
+                                            <span class="float-right badge badge-light round">132</span>
+                                            <input type="checkbox" class="custom-control-input" id="Check2">
+                                            <label class="custom-control-label" for="Check2">Black berry</label>
+                                        </div>
+
+                                        <div class="custom-control custom-checkbox">
+                                            <span class="float-right badge badge-light round">17</span>
+                                            <input type="checkbox" class="custom-control-input" id="Check3">
+                                            <label class="custom-control-label" for="Check3">Samsung</label>
+                                        </div>
+
+                                        <div class="custom-control custom-checkbox">
+                                            <span class="float-right badge badge-light round">7</span>
+                                            <input type="checkbox" class="custom-control-input" id="Check4">
+                                            <label class="custom-control-label" for="Check4">Other Brand</label>
+                                        </div>
+                                    </div> <!-- card-body.// -->
+                                </div>
+                            </div> <!-- card-group-item.// -->
+
+
+                        </div>
+                        <p class="divider-text">
+                            <span class="bg-light">OR</span>
+                        </p>
+                        <div class="row">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Apply</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script type="text/javascript" src="./js/results.js"></script>
 
 </body>
