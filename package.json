@@ -6,8 +6,8 @@
     "license": "ISC",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "parcel ./src/index.html ./src/detail.html ./src/results.html",
-        "build": "parcel build ./src/index.html --public-url ./"
+        "start": "parcel ./src/index.html ./src/detail.html ./src/results.html --no-hmr",
+        "build": "parcel build ./src/index.html --public-url ./ --no-hmr"
     },
     "devDependencies": {
         "parcel-bundler": "^1.12.3"
